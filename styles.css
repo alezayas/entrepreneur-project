@@ -1,0 +1,65 @@
+/*////////////// BASE p, body, h1, h2 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #4A4A4A;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+  color: #4A4A4A;
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+a, input[type=submit] {
+  font-size: 0.875rem;
+  line-height: 2rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+li {
+  /*STYLING MOBILE FIRST MENU*/
+}
+
+
+/*////////////// LAYOUT - .l-header, .l-sidebar, l-footer */
